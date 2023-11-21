@@ -1,1 +1,19 @@
-ChatGPT已经成为日常生活中很重要的一个工具，那么我们提出了一个概念--HouseCPT（house command pretrain transformer)，一个用于智能家居控制的预训练模型,致力于为智能家居注入新的活力
+一、简介：
+    ChatGPT已经成为日常生活中已经展现出巨大活力，那么我们提出了一个概念--HouseCPT（House command pretrain transformer)，一个用于智能家居控制的预训练模型,致力于为智能家居注入新的活力。
+
+二、主要构思：
+    1、HouseCPT专注于语音家居命令控制；
+    2、HouseCPT能预测非直接控制命令；
+    3、HouseCPT是一个预训练的离线模型。
+
+三、所需环境及设备：
+    1、树莓派
+    2、Pycharm
+    
+四、实现步骤
+    1、用树莓派实现语音识别
+    2、训练HouseCPT模型（重点）
+       ●创建数据集
+       ●训练模型
+       ●测试模型
+    3、把model导入树莓派，完成整个系统的搭建
